@@ -5,16 +5,16 @@
 #define NUM_OF_BLINDS 2
 
 // Buttons
-#define LWR1_SW 2
-#define LWR2_SW 3
-#define UPR1_SW 7
-#define UPR2_SW 6
+#define LOWER_SWITCH 2
+#define LOWER_SWITCH 3
+#define UPER_SWITCH 7
+#define UPER_SWITCH 6
 
 // Limit switches
-#define LMT1_UPR 8
-#define LMT2_UPR 5
-#define LMT1_LWR 8
-#define LMT2_LWR 4
+#define LMT1 8
+#define LMT2 5
+#define LMT3 8
+#define LMT4 4
 // PCF8574
 #define SDA_PIN 22
 #define SCL_PIN 21
