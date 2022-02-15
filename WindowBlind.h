@@ -4,15 +4,13 @@
 
 typedef struct WindowBlindPinSetup
 {
-    // LED
-    int endUprPin;
-    int endLwrPin;
+   
     // Buttons
-    int uprSwPin;
-    int lwrSwPin;
+    int UPERSwitchPin;
+    int lowerSwitchPin;
     // Limit switches
-    int lmtUprPin;
-    int lmtLwrPin;
+    int limitTOPPin;
+    int limitDOWNPin;
 } WindowBlindPinSetup;
 
 typedef struct WindowBlindTiming
